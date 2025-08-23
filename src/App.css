@@ -14,15 +14,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: white;
+  /* min-height: 100vh; */
+  /* display: flex;
+  flex-direction: column; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
+  color: rgb(26, 24, 24);
 }
+
+.input-email {
+  background-color: rgb(240, 240, 240);
+  outline: rgb(62, 61, 61);
+}
+
+.input-email:focus {
+  outline: solid blue 2px;
+}
+.input-email:valid {
+  outline: solid green 2px;
+}
+/* .input-email:invalid {
+  outline: solid red 2px;
+} */
 
 .App-link {
   color: #61dafb;
